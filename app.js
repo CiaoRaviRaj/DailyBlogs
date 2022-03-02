@@ -12,7 +12,7 @@ const mongoose = require('mongoose');
 
 //Connect and Creating DATABASE
 
-mongoose.connect("mongodb+srv://admin-ciaoraviraj:Raviraj123@cluster0.khlbm.mongodb.net/blogsDB");
+mongoose.connect("mongodb+srv://admin-ciaoraviraj:<password>@cluster0.khlbm.mongodb.net/blogsDB");
 
 //Schema
 const postSchema = {
